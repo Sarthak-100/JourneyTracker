@@ -29,6 +29,7 @@ JourneyTracker is built using Kotlin and Jetpack Compose.
 To run the app, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/Sarthak-100/JourneyTracker.git`
+
 2. Open the project in Android Studio.
 3. Run the app on an Android emulator or physical device.
 
