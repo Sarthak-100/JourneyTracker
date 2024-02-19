@@ -1,0 +1,27 @@
+The app uses a Stop data class to represent each stop along the journey. Each Stop has a name and a distance from the previous stop.
+
+The main screen displays the name of the current stop, buttons to switch between kilometers and miles, and a button to indicate reaching the next stop.
+Below the main screen, the app displays the total distance covered, total distance left, and progress percentage. It also shows a progress bar indicating the journey's progress.
+It uses a LinearProgressIndicator to show the progress visually.
+
+Each stop in the list displays its name, distance, and progress status (completed, reached, or pending).
+
+If the number of Stops > 10, then a lazy Column is used to display the stops, however when the number of stops is less than 10, then a regular Column is used to display it.
+
+The app uses remember to manage the state of the unit (km or miles) and the index of the current stop.
+When the "Switch" button is clicked, it toggles the unit between kilometers and miles.
+When the "Next Stop Reached" button is clicked, it increments the currentStopIndex and resets it to 0 if it exceeds the number of stops.
+
+To convert kilometers to miles, the distance in kilometers is multiplied by 0.621371.
+
+The app calculates the total distance covered and left based on the current stop index.
+
+Total distance covered is calculated by summing the distances of all stops before the current stop index.
+Total distance left is calculated by summing the distances of all stops starting from the current stop index.
+
+It also calculates the progress percentage based on the total distance covered and left.
+
+Progress percentage is calculated as the ratio of total distance covered to the total distance of the journey (total distance covered + total distance left), multiplied by 100.
+If the total distance of the journey is 0 (i.e., no stops), the progress percentage is set to 0 to avoid division by zero.
+So the formula used is :-
+progressPercentage = (totalDistanceCovered / (totalDistanceCovered + totalDistanceLeft)) * 100.
