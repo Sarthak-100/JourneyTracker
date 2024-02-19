@@ -13,12 +13,11 @@ JourneyTracker is a travel companion app that helps you plan and track your jour
 ### Usage
 
 1. **Tracking Your Journey**:
-   - Start tracking your journey by clicking the "Start Journey" button.
    - Mark stops as reached by clicking the "Next Stop Reached" button.
-   - Switch between kilometers and miles by clicking the "Switch Units" button.
+   - Switch between kilometers and miles by clicking the "Switch to Unit" button.
 
 2. **Viewing Progress**:
-   - Track your progress on the map and see your current location and the remaining stops on your route.
+   - Track your progress and see your current location and the remaining stops on your route.
    - View the total distance covered and the distance left to travel.
 
 ## Technologies Used
@@ -35,5 +34,5 @@ To run the app, follow these steps:
 
 ## Logic of App
 
-Implementation details can be found [here]().
+Implementation details can be found [here](https://github.com/Sarthak-100/JourneyTracker/blob/master/App%20Implementation%20Description.txt).
 
