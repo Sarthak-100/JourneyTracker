@@ -8,6 +8,7 @@ JourneyTracker is a travel companion app that helps you plan and track your jour
 - **Unit Conversion**: Easily switch between kilometers and miles to suit your preference.
 - **Intuitive Controls**: Navigate through your journey with simple controls to switch units and mark stops as reached.
 - **Visual Progress Indicator**: Visualize your progress with a dynamic progress bar that updates as you travel.
+- **Lazy Loading**: To optimize performance, the app uses lazy loading for displaying stops, ensuring smooth scrolling and efficient memory usage.
 
 ### Usage
 
@@ -23,3 +24,16 @@ JourneyTracker is a travel companion app that helps you plan and track your jour
 ## Technologies Used
 
 JourneyTracker is built using Kotlin and Jetpack Compose.
+
+## Getting Started
+
+To run the app, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/Sarthak-100/JourneyTracker.git`
+2. Open the project in Android Studio.
+3. Run the app on an Android emulator or physical device.
+
+## Logic of App
+
+Implementation details can be found [here]().
+
