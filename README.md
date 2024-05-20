@@ -1,5 +1,8 @@
 # JourneyTracker
-
+<p align="center">
+  <img src="https://github.com/Sarthak-100/JourneyTracker/assets/82911845/0a2ec363-1459-4c5f-b867-df7c26387dba" width="200" height="450">
+  <img src="https://github.com/Sarthak-100/JourneyTracker/assets/82911845/75f3db63-52e5-4d98-b280-57d908f81e7d" width="200" height="450">
+</p>
 JourneyTracker is a travel companion app that helps you plan and track your journeys with ease. Whether you're on a road trip, hiking adventure, or exploring a new city, JourneyTracker has you covered.
 
 ## Features
