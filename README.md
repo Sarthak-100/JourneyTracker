@@ -40,3 +40,11 @@ To run the app, follow these steps:
 
 Implementation details can be found [here](https://github.com/Sarthak-100/JourneyTracker/blob/master/App%20Implementation%20Description.txt).
 
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
